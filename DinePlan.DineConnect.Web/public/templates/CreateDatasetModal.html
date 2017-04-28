@@ -3,8 +3,13 @@
 </div>
 <div class="modal-body text-center">
     <div class="msg" ng-if="options.message" ng-bind="options.message"></div>
+    <ol ng-if="!options.message">
+        <li ng-repeat="o in options.obj">
+            <span ng-bind="o.name"></span>
+        </li>
+    </ol>
 </div>
 <div class="modal-footer">
-    <button class="btn btn-info btn-md"> Ok </button>
-    <button class="btn btn-default btn-md"> Cancel </button>
+    <button class="btn btn-info btn-md" ng-click="ok()"> Ok </button>
+    <button class="btn btn-default btn-md" ng-click="cancel()"> Cancel </button>
 </div>

@@ -29,13 +29,63 @@
 
     angular.module('appLayout')
         .controller('CreateDatasetModalController', ['$uibModalInstance', 'options', '$scope', function ($uibModalInstance, options, $scope) {
+            function ok() {
+                $uibModalInstance.close();
+            }
+            function cancel() {
+                $uibModalInstance.dismiss();
+            }
             $scope.options = options;
+            $scope.ok = ok;
+            $scope.cancel = cancel;
         }])
         .controller('HomeController', ['$state', '$scope', '$http', '$uibModal', function ($state, $scope, $http, $uibModal) {
+
+            function showModal(title, msg, obj) {
+                return $uibModal.open({
+                    controller: 'CreateDatasetModalController',
+                    size: 'md',
+                    templateUrl: '/public/templates/CreateDatasetModal.html',
+                    resolve: {
+                        options: {
+                            title: title,
+                            message: msg,
+                            obj: obj
+                        }
+                    }
+                }).result
+            }
+
+            function getTokenFromCode(code) {
+                $http.post('/api/services/app/noisService/GetTokenFromCode?code=' + code).then(function (resp) {
+                    $scope.userToken = resp.data.result;
+                }, function (err) {
+                    showModal('Error', err.data.error.message)
+                });
+            }
+
+            function parseCode() {
+                var uri = window.location.href;
+                var queryString = {};
+                uri.replace(
+                    new RegExp("([^?=&]+)(=([^&]*))?", "g"),
+                    function ($0, $1, $2, $3) { queryString[$1] = $3; }
+                );
+                return queryString['code'];
+            }
+            function init() {
+                var currentCode = parseCode();
+                if (currentCode) {
+                    getTokenFromCode(currentCode);
+                }
+            }
             $scope.getListDataset = function () {
-                $http.post('/api/Nois/getListDataset', {
-                    token: ''
-                })
+                $http.post('/api/services/app/noisService/getListDataset', {
+                    token: $scope.userToken
+                }).then(function (resp) {
+                    showModal('Success', '', resp.data.result.value);
+                    }, function (err) {
+                    })
                 //$uibModal.open({
                 //    controller: 'Modal1', 
                 //    size: 'md',
@@ -44,51 +94,41 @@
             }
 
             $scope.createDataset = function () {
-                //$http.post('/api/Nois/createDataset', {
-                //    "token": "string",
-                //    "datasetname": "string",
-                //    "tables": [
-                //        {
-                //            "name": "string",
-                //            "columns": [
-                //                {
-                //                    "name": "string",
-                //                    "format": "string"
-                //                }
-                //            ]
-                //        }
-                //    ]
-                //})
-                $uibModal.open({
-                    controller: 'CreateDatasetModalController', 
-                    size: 'md',
-                    templateUrl: '/public/templates/CreateDatasetModal.html',
-                    resolve: {
-                        options: {
-                            title: 'Success',
-                            message: 'You are done'
-                        }
-                    }
-                })
+                $http.post('/api/services/app/noisService/createDataset', {
+                    "token": $scope.userToken,
+                }).then(function (resp) {
+                    debugger;
+                    }, function (err) {
+                        debugger;
+                    })
+               
             }
             $scope.pushRows = function () {
-                $http.post('/api/Nois/pushRows', {
+                $http.post('/api/services/app/noisService/pushRows', {
                     "datasetId": "string",
                     "tableName": "string",
                     "token": "string",
                     "rows": [
                         {}
                     ]
+                }).then(function (resp) {
+                    debugger;
+                }, function (err) {
+                    debugger;
                 })
             }
             $scope.clearTable = function () {
-                $http.post('/api/Nois/clearTable', {
+                $http.post('/api/services/app/noisService/clearTable', {
                     "token": "string",
                     "datasetId": "string",
                     "tableName": "string"
+                }).then(function (resp) {
+                    debugger;
+                }, function (err) {
+                    debugger;
                 })
             }
-
+            init();
         }])
 
         //do work

@@ -486,3 +486,5 @@ D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hant\Microsoft.Spat
 D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.csprojResolveAssemblyReference.cache
 D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.dll
 D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml

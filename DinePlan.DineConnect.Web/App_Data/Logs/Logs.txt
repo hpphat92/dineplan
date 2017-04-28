@@ -6130,3 +6130,924 @@ System.TypeInitializationException: The type initializer for 'Microsoft.Identity
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-04-28 12:14:42,848 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-28 12:14:42,864 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2017-04-28 12:14:42,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.Web.DineConnectWebModule, DinePlan.DineConnect.Web, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectDataModule, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.11.2.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectCoreModule, DinePlan.DineConnect.Core, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,874 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,874 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectApplicationModule, DinePlan.DineConnect.Application, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,874 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.WebApi.DineConnectWebApiModule, DinePlan.DineConnect.WebApi, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:42,879 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2017-04-28 12:14:42,998 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:14:42,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:14:42,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:14:42,998 [1    ] o.Configuration.LanguageManagementConfig - Converted DineConnect (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:14:43,422 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: DinePlan.DineConnect.EntityFramework.DineConnectDbContext, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:14:45,367 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-28 12:14:45,382 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-28 12:14:45,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-28 12:14:45,396 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-28 12:14:45,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DineConnect
+DEBUG 2017-04-28 12:14:45,520 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-28 12:14:47,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 37 classes defines auto mapping attributes
+DEBUG 2017-04-28 12:14:47,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-04-28 12:14:47,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-04-28 12:14:47,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Cache.FriendCacheItem
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-28 12:14:47,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierListDto
+DEBUG 2017-04-28 12:14:47,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierEditDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Dto.FriendDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionEditDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.FlatFeatureDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionListDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatMessageDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-04-28 12:14:47,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-04-28 12:14:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-04-28 12:14:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto
+DEBUG 2017-04-28 12:14:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-04-28 12:14:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-04-28 12:14:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-04-28 12:14:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-04-28 12:14:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Auditing.Dto.AuditLogListDto
+DEBUG 2017-04-28 12:14:47,413 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-04-28 12:14:48,010 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-04-28 12:14:48,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-04-28 12:14:48,013 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-28 12:14:48,015 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-04-28 12:14:48,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-04-28 12:14:48,018 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Nois.INoisService' with service name 'app/noisService'.
+DEBUG 2017-04-28 12:14:48,019 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-28 12:14:48,021 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-04-28 12:14:48,022 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-04-28 12:14:48,023 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.House.Master.ISupplierAppService' with service name 'app/supplier'.
+DEBUG 2017-04-28 12:14:48,024 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-04-28 12:14:48,025 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-04-28 12:14:48,026 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-04-28 12:14:48,027 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-04-28 12:14:48,028 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-04-28 12:14:48,029 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-04-28 12:14:48,030 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-04-28 12:14:48,031 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-04-28 12:14:48,032 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-04-28 12:14:48,033 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-28 12:14:48,035 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-04-28 12:14:48,036 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-28 12:14:48,037 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-04-28 12:14:48,038 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+ERROR 2017-04-28 12:20:49,403 [64   ] nHandling.AbpApiExceptionFilterAttribute - The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception.
+System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin' threw an exception. ---> Microsoft.IdentityModel.Clients.ActiveDirectory.AdalException: Assembly required for the platform not found. Make sure assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' exists ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.InitializeByAssemblyDynamicLinking()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin..cctor()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.get_TokenCachePlugin()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache..cctor()
+   --- End of inner exception stack trace ---
+   at DinePlan.DineConnect.Nois.NoisService.<GetTokenFromCode>d__10.MoveNext() in D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\Nois\NoisService.cs:line 213
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__4.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-04-28 12:22:28,225 [34   ] nHandling.AbpApiExceptionFilterAttribute - The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception.
+System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin' threw an exception. ---> Microsoft.IdentityModel.Clients.ActiveDirectory.AdalException: Assembly required for the platform not found. Make sure assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' exists ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.InitializeByAssemblyDynamicLinking()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin..cctor()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.get_TokenCachePlugin()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache..cctor()
+   --- End of inner exception stack trace ---
+   at DinePlan.DineConnect.Nois.NoisService.<GetTokenFromCode>d__10.MoveNext() in D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\Nois\NoisService.cs:line 213
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__4.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-04-28 12:24:37,585 [16   ] nHandling.AbpApiExceptionFilterAttribute - The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception.
+System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin' threw an exception. ---> Microsoft.IdentityModel.Clients.ActiveDirectory.AdalException: Assembly required for the platform not found. Make sure assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' exists ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.InitializeByAssemblyDynamicLinking()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin..cctor()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.get_TokenCachePlugin()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache..cctor()
+   --- End of inner exception stack trace ---
+   at DinePlan.DineConnect.Nois.NoisService.<GetTokenFromCode>d__10.MoveNext() in D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\Nois\NoisService.cs:line 213
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__4.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-04-28 12:24:54,128 [24   ] nHandling.AbpApiExceptionFilterAttribute - The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception.
+System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin' threw an exception. ---> Microsoft.IdentityModel.Clients.ActiveDirectory.AdalException: Assembly required for the platform not found. Make sure assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' exists ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.13.9.1126, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.LoadPlatformSpecificAssembly()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.InitializeByAssemblyDynamicLinking()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin..cctor()
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.PlatformPlugin.get_TokenCachePlugin()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache..cctor()
+   --- End of inner exception stack trace ---
+   at DinePlan.DineConnect.Nois.NoisService.<GetTokenFromCode>d__10.MoveNext() in D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\Nois\NoisService.cs:line 213
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__4.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-04-28 12:47:38,519 [69   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-04-28 12:47:38,520 [69   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-28 12:47:38,520 [69   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-28 12:47:38,520 [69   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-04-28 12:47:59,963 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-28 12:47:59,989 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2017-04-28 12:47:59,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.Web.DineConnectWebModule, DinePlan.DineConnect.Web, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectDataModule, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.11.2.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectCoreModule, DinePlan.DineConnect.Core, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectApplicationModule, DinePlan.DineConnect.Application, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.WebApi.DineConnectWebApiModule, DinePlan.DineConnect.WebApi, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:00,057 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2017-04-28 12:48:00,274 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:48:00,274 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:48:00,274 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:48:00,274 [1    ] o.Configuration.LanguageManagementConfig - Converted DineConnect (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:48:00,916 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: DinePlan.DineConnect.EntityFramework.DineConnectDbContext, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:48:05,134 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-28 12:48:05,148 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-28 12:48:05,150 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-28 12:48:05,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-28 12:48:05,198 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DineConnect
+DEBUG 2017-04-28 12:48:05,350 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-28 12:48:09,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 37 classes defines auto mapping attributes
+DEBUG 2017-04-28 12:48:09,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-04-28 12:48:09,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-04-28 12:48:09,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-04-28 12:48:09,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-04-28 12:48:09,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-04-28 12:48:09,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Cache.FriendCacheItem
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-04-28 12:48:09,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-28 12:48:09,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-04-28 12:48:09,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-04-28 12:48:09,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-04-28 12:48:09,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierListDto
+DEBUG 2017-04-28 12:48:09,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierEditDto
+DEBUG 2017-04-28 12:48:09,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Dto.FriendDto
+DEBUG 2017-04-28 12:48:09,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionEditDto
+DEBUG 2017-04-28 12:48:09,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.FlatFeatureDto
+DEBUG 2017-04-28 12:48:09,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionListDto
+DEBUG 2017-04-28 12:48:09,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatMessageDto
+DEBUG 2017-04-28 12:48:09,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserDto
+DEBUG 2017-04-28 12:48:09,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-04-28 12:48:09,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-04-28 12:48:09,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-04-28 12:48:09,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto
+DEBUG 2017-04-28 12:48:09,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-04-28 12:48:09,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-04-28 12:48:09,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-04-28 12:48:09,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-04-28 12:48:09,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Auditing.Dto.AuditLogListDto
+DEBUG 2017-04-28 12:48:09,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-04-28 12:48:10,159 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-04-28 12:48:10,164 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-04-28 12:48:10,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-28 12:48:10,169 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-04-28 12:48:10,171 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-04-28 12:48:10,174 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Nois.INoisService' with service name 'app/noisService'.
+DEBUG 2017-04-28 12:48:10,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-28 12:48:10,182 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-04-28 12:48:10,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-04-28 12:48:10,187 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.House.Master.ISupplierAppService' with service name 'app/supplier'.
+DEBUG 2017-04-28 12:48:10,192 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-04-28 12:48:10,197 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-04-28 12:48:10,199 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-04-28 12:48:10,201 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-04-28 12:48:10,202 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-04-28 12:48:10,204 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-04-28 12:48:10,206 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-04-28 12:48:10,207 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-04-28 12:48:10,209 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-04-28 12:48:10,212 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-28 12:48:10,214 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-04-28 12:48:10,216 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-28 12:48:10,218 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-04-28 12:48:10,219 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2017-04-28 12:50:16,921 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-28 12:50:16,939 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2017-04-28 12:50:16,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.Web.DineConnectWebModule, DinePlan.DineConnect.Web, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectDataModule, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.11.2.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectCoreModule, DinePlan.DineConnect.Core, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectApplicationModule, DinePlan.DineConnect.Application, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.WebApi.DineConnectWebApiModule, DinePlan.DineConnect.WebApi, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:16,957 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2017-04-28 12:50:17,123 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:50:17,123 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:50:17,123 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:50:17,123 [1    ] o.Configuration.LanguageManagementConfig - Converted DineConnect (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 12:50:17,961 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: DinePlan.DineConnect.EntityFramework.DineConnectDbContext, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:50:21,785 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-28 12:50:21,797 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-28 12:50:21,799 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-28 12:50:21,806 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-28 12:50:21,819 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DineConnect
+DEBUG 2017-04-28 12:50:21,958 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-28 12:50:24,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 37 classes defines auto mapping attributes
+DEBUG 2017-04-28 12:50:24,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-04-28 12:50:24,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-04-28 12:50:24,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-04-28 12:50:24,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Cache.FriendCacheItem
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-28 12:50:24,962 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierListDto
+DEBUG 2017-04-28 12:50:24,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierEditDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Dto.FriendDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionEditDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.FlatFeatureDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionListDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatMessageDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-04-28 12:50:24,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Auditing.Dto.AuditLogListDto
+DEBUG 2017-04-28 12:50:24,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-04-28 12:50:25,929 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-04-28 12:50:25,931 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-04-28 12:50:25,933 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-28 12:50:25,934 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-04-28 12:50:25,936 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-04-28 12:50:25,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Nois.INoisService' with service name 'app/noisService'.
+DEBUG 2017-04-28 12:50:25,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-28 12:50:25,942 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-04-28 12:50:25,946 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-04-28 12:50:25,949 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.House.Master.ISupplierAppService' with service name 'app/supplier'.
+DEBUG 2017-04-28 12:50:25,951 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-04-28 12:50:25,953 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-04-28 12:50:25,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-04-28 12:50:25,955 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-04-28 12:50:25,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-04-28 12:50:25,958 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-04-28 12:50:25,961 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-04-28 12:50:25,963 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-04-28 12:50:25,965 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-04-28 12:50:25,967 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-28 12:50:25,969 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-04-28 12:50:25,971 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-28 12:50:25,972 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-04-28 12:50:25,973 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+ERROR 2017-04-28 12:51:11,653 [11   ] nHandling.AbpApiExceptionFilterAttribute - AADSTS70000: Transmission data parser failure: Authorization Code is malformed or invalid.
+Trace ID: a6a3f046-359b-4890-b5ac-33d8923b0400
+Correlation ID: 07aa2e17-db71-4c77-9b68-6e116bd53477
+Timestamp: 2017-04-28 05:51:03Z
+Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: AADSTS70000: Transmission data parser failure: Authorization Code is malformed or invalid.
+Trace ID: a6a3f046-359b-4890-b5ac-33d8923b0400
+Correlation ID: 07aa2e17-db71-4c77-9b68-6e116bd53477
+Timestamp: 2017-04-28 05:51:03Z ---> System.Net.Http.HttpRequestException:  Response status code does not indicate success: 400 (BadRequest). ---> System.Exception: {"error":"invalid_grant","error_description":"AADSTS70000: Transmission data parser failure: Authorization Code is malformed or invalid.\r\nTrace ID: a6a3f046-359b-4890-b5ac-33d8923b0400\r\nCorrelation ID: 07aa2e17-db71-4c77-9b68-6e116bd53477\r\nTimestamp: 2017-04-28 05:51:03Z","error_codes":[70000],"timestamp":"2017-04-28 05:51:03Z","trace_id":"a6a3f046-359b-4890-b5ac-33d8923b0400","correlation_id":"07aa2e17-db71-4c77-9b68-6e116bd53477"}
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.HttpClientWrapper.<GetResponseAsync>d__30.MoveNext()
+   --- End of inner exception stack trace ---
+   at DinePlan.DineConnect.Nois.NoisService.<GetTokenFromCode>d__10.MoveNext() in D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\Nois\NoisService.cs:line 213
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__4.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+	ErrorCode: invalid_grant
+	StatusCode: 400
+ERROR 2017-04-28 12:51:59,265 [11   ] nHandling.AbpApiExceptionFilterAttribute - AADSTS70002: Error validating credentials. AADSTS70008: The provided authorization code or refresh token is expired. Send a new interactive authorization request for this user and resource.
+Trace ID: ac0938f3-c8e8-44d6-a8c4-fd37889e0500
+Correlation ID: 70cee58f-ecbd-457c-9cbc-a5840ab08693
+Timestamp: 2017-04-28 05:52:00Z
+Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: AADSTS70002: Error validating credentials. AADSTS70008: The provided authorization code or refresh token is expired. Send a new interactive authorization request for this user and resource.
+Trace ID: ac0938f3-c8e8-44d6-a8c4-fd37889e0500
+Correlation ID: 70cee58f-ecbd-457c-9cbc-a5840ab08693
+Timestamp: 2017-04-28 05:52:00Z ---> System.Net.Http.HttpRequestException:  Response status code does not indicate success: 400 (BadRequest). ---> System.Exception: {"error":"invalid_grant","error_description":"AADSTS70002: Error validating credentials. AADSTS70008: The provided authorization code or refresh token is expired. Send a new interactive authorization request for this user and resource.\r\nTrace ID: ac0938f3-c8e8-44d6-a8c4-fd37889e0500\r\nCorrelation ID: 70cee58f-ecbd-457c-9cbc-a5840ab08693\r\nTimestamp: 2017-04-28 05:52:00Z","error_codes":[70002,70008],"timestamp":"2017-04-28 05:52:00Z","trace_id":"ac0938f3-c8e8-44d6-a8c4-fd37889e0500","correlation_id":"70cee58f-ecbd-457c-9cbc-a5840ab08693"}
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.HttpClientWrapper.<GetResponseAsync>d__30.MoveNext()
+   --- End of inner exception stack trace ---
+   at DinePlan.DineConnect.Nois.NoisService.<GetTokenFromCode>d__10.MoveNext() in D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\Nois\NoisService.cs:line 213
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__4.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+	ErrorCode: invalid_grant
+	StatusCode: 400
+ERROR 2017-04-28 12:52:15,579 [11   ] nHandling.AbpApiExceptionFilterAttribute - AADSTS70002: Error validating credentials. AADSTS70008: The provided authorization code or refresh token is expired. Send a new interactive authorization request for this user and resource.
+Trace ID: b9b7821d-bbfd-4c95-a350-9a1d31af0700
+Correlation ID: 93f0f82b-4118-49bc-8ec0-7870b0557a49
+Timestamp: 2017-04-28 05:52:16Z
+Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: AADSTS70002: Error validating credentials. AADSTS70008: The provided authorization code or refresh token is expired. Send a new interactive authorization request for this user and resource.
+Trace ID: b9b7821d-bbfd-4c95-a350-9a1d31af0700
+Correlation ID: 93f0f82b-4118-49bc-8ec0-7870b0557a49
+Timestamp: 2017-04-28 05:52:16Z ---> System.Net.Http.HttpRequestException:  Response status code does not indicate success: 400 (BadRequest). ---> System.Exception: {"error":"invalid_grant","error_description":"AADSTS70002: Error validating credentials. AADSTS70008: The provided authorization code or refresh token is expired. Send a new interactive authorization request for this user and resource.\r\nTrace ID: b9b7821d-bbfd-4c95-a350-9a1d31af0700\r\nCorrelation ID: 93f0f82b-4118-49bc-8ec0-7870b0557a49\r\nTimestamp: 2017-04-28 05:52:16Z","error_codes":[70002,70008],"timestamp":"2017-04-28 05:52:16Z","trace_id":"b9b7821d-bbfd-4c95-a350-9a1d31af0700","correlation_id":"93f0f82b-4118-49bc-8ec0-7870b0557a49"}
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.HttpClientWrapper.<GetResponseAsync>d__30.MoveNext()
+   --- End of inner exception stack trace ---
+   at DinePlan.DineConnect.Nois.NoisService.<GetTokenFromCode>d__10.MoveNext() in D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\Nois\NoisService.cs:line 213
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__4.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+	ErrorCode: invalid_grant
+	StatusCode: 400
+DEBUG 2017-04-28 12:59:58,640 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-28 12:59:59,514 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2017-04-28 12:59:59,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.Web.DineConnectWebModule, DinePlan.DineConnect.Web, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectDataModule, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.11.2.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectCoreModule, DinePlan.DineConnect.Core, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectApplicationModule, DinePlan.DineConnect.Application, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.WebApi.DineConnectWebApiModule, DinePlan.DineConnect.WebApi, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 12:59:59,532 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2017-04-28 13:00:00,797 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:00:00,797 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:00:00,797 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:00:00,797 [1    ] o.Configuration.LanguageManagementConfig - Converted DineConnect (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:00:01,646 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: DinePlan.DineConnect.EntityFramework.DineConnectDbContext, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:00:04,099 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-28 13:00:04,112 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-28 13:00:04,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-28 13:00:04,120 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-28 13:00:04,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DineConnect
+DEBUG 2017-04-28 13:00:04,338 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-28 13:00:07,646 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 37 classes defines auto mapping attributes
+DEBUG 2017-04-28 13:00:07,647 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-04-28 13:00:07,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-04-28 13:00:07,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-04-28 13:00:07,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Cache.FriendCacheItem
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-04-28 13:00:07,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-04-28 13:00:07,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-28 13:00:07,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-04-28 13:00:07,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-04-28 13:00:07,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-04-28 13:00:07,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierListDto
+DEBUG 2017-04-28 13:00:07,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierEditDto
+DEBUG 2017-04-28 13:00:07,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Dto.FriendDto
+DEBUG 2017-04-28 13:00:07,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionEditDto
+DEBUG 2017-04-28 13:00:07,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.FlatFeatureDto
+DEBUG 2017-04-28 13:00:07,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionListDto
+DEBUG 2017-04-28 13:00:07,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatMessageDto
+DEBUG 2017-04-28 13:00:07,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserDto
+DEBUG 2017-04-28 13:00:07,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-04-28 13:00:07,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-04-28 13:00:07,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-04-28 13:00:07,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto
+DEBUG 2017-04-28 13:00:07,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-04-28 13:00:07,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-04-28 13:00:07,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-04-28 13:00:07,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-04-28 13:00:07,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Auditing.Dto.AuditLogListDto
+DEBUG 2017-04-28 13:00:07,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-04-28 13:00:08,556 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-04-28 13:00:08,558 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-04-28 13:00:08,560 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-28 13:00:08,561 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-04-28 13:00:08,563 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-04-28 13:00:08,564 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Nois.INoisService' with service name 'app/noisService'.
+DEBUG 2017-04-28 13:00:08,565 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-28 13:00:08,566 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-04-28 13:00:08,567 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-04-28 13:00:08,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.House.Master.ISupplierAppService' with service name 'app/supplier'.
+DEBUG 2017-04-28 13:00:08,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-04-28 13:00:08,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-04-28 13:00:08,573 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-04-28 13:00:08,575 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-04-28 13:00:08,577 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-04-28 13:00:08,578 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-04-28 13:00:08,579 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-04-28 13:00:08,580 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-04-28 13:00:08,581 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-04-28 13:00:08,582 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-28 13:00:08,584 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-04-28 13:00:08,585 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-28 13:00:08,586 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-04-28 13:00:08,587 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2017-04-28 13:03:38,207 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-28 13:03:41,186 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2017-04-28 13:03:41,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.Web.DineConnectWebModule, DinePlan.DineConnect.Web, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectDataModule, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.11.2.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectCoreModule, DinePlan.DineConnect.Core, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.DineConnectApplicationModule, DinePlan.DineConnect.Application, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DinePlan.DineConnect.WebApi.DineConnectWebApiModule, DinePlan.DineConnect.WebApi, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.11.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:41,206 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2017-04-28 13:03:45,090 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:03:45,090 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:03:45,090 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:03:45,090 [1    ] o.Configuration.LanguageManagementConfig - Converted DineConnect (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-28 13:03:46,695 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: DinePlan.DineConnect.EntityFramework.DineConnectDbContext, DinePlan.DineConnect.EntityFramework, Version=1.12.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-28 13:03:49,737 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-28 13:03:49,751 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-28 13:03:49,752 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-28 13:03:49,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-28 13:03:49,775 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DineConnect
+DEBUG 2017-04-28 13:03:49,945 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-28 13:03:52,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 37 classes defines auto mapping attributes
+DEBUG 2017-04-28 13:03:52,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-04-28 13:03:52,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-04-28 13:03:52,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Cache.FriendCacheItem
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-28 13:03:52,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierListDto
+DEBUG 2017-04-28 13:03:52,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.House.Master.Dtos.SupplierEditDto
+DEBUG 2017-04-28 13:03:52,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Friendships.Dto.FriendDto
+DEBUG 2017-04-28 13:03:52,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionEditDto
+DEBUG 2017-04-28 13:03:52,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.FlatFeatureDto
+DEBUG 2017-04-28 13:03:52,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Editions.Dto.EditionListDto
+DEBUG 2017-04-28 13:03:52,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatMessageDto
+DEBUG 2017-04-28 13:03:52,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserDto
+DEBUG 2017-04-28 13:03:52,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-04-28 13:03:52,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-04-28 13:03:52,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-04-28 13:03:52,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto
+DEBUG 2017-04-28 13:03:52,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-04-28 13:03:52,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-04-28 13:03:52,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-04-28 13:03:52,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-04-28 13:03:52,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Auditing.Dto.AuditLogListDto
+DEBUG 2017-04-28 13:03:52,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DinePlan.DineConnect.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-04-28 13:03:54,149 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-04-28 13:03:54,151 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-04-28 13:03:54,157 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-28 13:03:54,159 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-04-28 13:03:54,161 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-04-28 13:03:54,162 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Nois.INoisService' with service name 'app/noisService'.
+DEBUG 2017-04-28 13:03:54,164 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-28 13:03:54,165 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-04-28 13:03:54,167 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-04-28 13:03:54,169 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.House.Master.ISupplierAppService' with service name 'app/supplier'.
+DEBUG 2017-04-28 13:03:54,175 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-04-28 13:03:54,177 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-04-28 13:03:54,179 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-04-28 13:03:54,180 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-04-28 13:03:54,182 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-04-28 13:03:54,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-04-28 13:03:54,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-04-28 13:03:54,189 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-04-28 13:03:54,191 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-04-28 13:03:54,193 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-28 13:03:54,194 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-04-28 13:03:54,196 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-28 13:03:54,197 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-04-28 13:03:54,198 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'DinePlan.DineConnect.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
