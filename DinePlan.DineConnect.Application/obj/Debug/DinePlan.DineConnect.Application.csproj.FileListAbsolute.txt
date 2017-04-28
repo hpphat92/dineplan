@@ -1,0 +1,106 @@
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Application.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Application.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.AutoMapper.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.Ldap.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\AutoMapper.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Castle.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Castle.Facilities.Logging.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Castle.Windsor.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.SqlServer.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\EPPlus.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Newtonsoft.Json.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Concurrent.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\System.Collections.Immutable.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\System.Linq.Dynamic.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Core.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Core.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.AutoMapper.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.AutoMapper.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.Ldap.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.Ldap.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\AutoMapper.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Castle.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Castle.Facilities.Logging.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Castle.Windsor.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.SqlServer.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\EPPlus.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Newtonsoft.Json.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Concurrent.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\System.Collections.Immutable.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\obj\Debug\DinePlan.DineConnect.Application.csprojResolveAssemblyReference.cache
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\obj\Debug\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\obj\Debug\DinePlan.DineConnect.Application.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\RestSharp.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Application\bin\Debug\RestSharp.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Application.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Application.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.AutoMapper.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.Ldap.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\AutoMapper.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Castle.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Castle.Facilities.Logging.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Castle.Windsor.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.SqlServer.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\EPPlus.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Newtonsoft.Json.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Concurrent.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\RestSharp.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\System.Collections.Immutable.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\System.Linq.Dynamic.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Core.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\DinePlan.DineConnect.Core.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.AutoMapper.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.AutoMapper.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.Ldap.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Abp.Zero.Ldap.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\AutoMapper.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Castle.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Castle.Facilities.Logging.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Castle.Windsor.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\EntityFramework.SqlServer.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\EPPlus.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Newtonsoft.Json.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Concurrent.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\RestSharp.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\bin\Debug\System.Collections.Immutable.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\obj\Debug\DinePlan.DineConnect.Application.csprojResolveAssemblyReference.cache
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\obj\Debug\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Application\obj\Debug\DinePlan.DineConnect.Application.pdb

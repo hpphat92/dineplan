@@ -1,0 +1,488 @@
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Web.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Web.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Web.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.AutoMapper.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Castle.Log4Net.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.Common.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.HangFire.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.RedisCache.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Api.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Api.OData.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Common.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Mvc.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.SignalR.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.EntityFramework.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.Ldap.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Antlr3.Runtime.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\AutoMapper.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Castle.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Castle.Facilities.Logging.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Castle.Windsor.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.EntityFramework.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.WebApi.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\EntityFramework.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\EntityFramework.DynamicFilters.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\EntityFramework.SqlServer.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Hangfire.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Hangfire.SqlServer.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Humanizer.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\log4net.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.OData.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.OData.Edm.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.WsFederation.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Spatial.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Newtonsoft.Json.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Concurrent.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Enlightenment.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Recaptcha.Web.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\StackExchange.Redis.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Collections.Immutable.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Net.Http.Formatting.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Helpers.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Http.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Http.WebHost.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Mvc.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.OData.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Optimization.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Razor.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Deployment.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.WebPages.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Razor.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\WebGrease.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\EPPlus.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Linq.Dynamic.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Swashbuckle.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Http.Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Application.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Application.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Core.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Core.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.EntityFramework.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.EntityFramework.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.WebApi.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.WebApi.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.AutoMapper.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.AutoMapper.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.Common.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.Common.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.HangFire.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.HangFire.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Owin.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Owin.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.RedisCache.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.RedisCache.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Api.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Api.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Api.OData.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Api.OData.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Common.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Common.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Mvc.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.Mvc.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.SignalR.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Web.SignalR.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.EntityFramework.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.EntityFramework.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.Ldap.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Abp.Zero.Ldap.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Antlr3.Runtime.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\AutoMapper.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Castle.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Castle.Facilities.Logging.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Castle.Windsor.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\EntityFramework.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\EntityFramework.SqlServer.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Hangfire.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Hangfire.SqlServer.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Humanizer.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Humanizer.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\log4net.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.OData.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.OData.Edm.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.WsFederation.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.Spatial.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Newtonsoft.Json.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Concurrent.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Enlightenment.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\StackExchange.Redis.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\StackExchange.Redis.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\StackExchange.Redis.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Collections.Immutable.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Net.Http.Formatting.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Helpers.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Http.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Http.WebHost.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Mvc.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.OData.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Optimization.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Razor.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.WebPages.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Deployment.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Razor.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\EPPlus.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\System.Web.Http.Owin.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\af\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ar\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\bg\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\bn-BD\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\cs\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\da\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\de\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\el\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\es\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\fa\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\fi-FI\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\fr\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\fr-BE\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\he\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\hr\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\hu\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\id\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\it\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ja\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\nb\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\nb-NO\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\nl\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\pl\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\pt\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ro\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ru\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\sk\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\sl\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\sr\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\sr-Latn\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\sv\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\tr\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\uk\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\uz-Latn-UZ\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\vi\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-CN\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hans\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hant\Humanizer.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\de\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\es\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\fr\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\it\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ja\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ko\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ru\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hans\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hant\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\de\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\es\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\fr\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\it\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ja\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ko\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ru\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hans\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hant\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\de\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\es\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\fr\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\it\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ja\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ko\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\ru\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hans\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\zh-Hant\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.csprojResolveAssemblyReference.cache
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\RestSharp.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\RestSharp.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Web.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Web.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Web.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.AutoMapper.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Castle.Log4Net.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.Common.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.HangFire.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.RedisCache.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Api.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Api.OData.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Common.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Mvc.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.SignalR.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.EntityFramework.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.Ldap.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Antlr3.Runtime.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\AutoMapper.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Castle.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Castle.Facilities.Logging.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Castle.Windsor.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.EntityFramework.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.WebApi.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\EntityFramework.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\EntityFramework.DynamicFilters.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\EntityFramework.SqlServer.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Hangfire.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Hangfire.SqlServer.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Humanizer.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\log4net.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.OData.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.OData.Edm.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.WsFederation.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Spatial.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Newtonsoft.Json.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Concurrent.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Enlightenment.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Recaptcha.Web.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\StackExchange.Redis.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Collections.Immutable.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Net.Http.Formatting.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Helpers.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Http.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Http.WebHost.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Mvc.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.OData.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Optimization.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Razor.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Deployment.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.WebPages.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Razor.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\WebGrease.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\EPPlus.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Linq.Dynamic.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Swashbuckle.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\RestSharp.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Http.Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Application.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Application.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Core.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.Core.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.EntityFramework.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.EntityFramework.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.WebApi.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\DinePlan.DineConnect.WebApi.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.AutoMapper.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.AutoMapper.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.Common.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.EntityFramework.Common.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.HangFire.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.HangFire.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Owin.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Owin.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.RedisCache.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.RedisCache.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Api.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Api.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Api.OData.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Api.OData.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Common.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Common.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Mvc.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.Mvc.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.SignalR.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Web.SignalR.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.EntityFramework.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.EntityFramework.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.Ldap.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Abp.Zero.Ldap.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Antlr3.Runtime.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\AutoMapper.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Castle.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Castle.Facilities.Logging.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Castle.Windsor.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\EntityFramework.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\EntityFramework.SqlServer.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Hangfire.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Hangfire.SqlServer.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Humanizer.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Humanizer.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\log4net.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.OData.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.OData.Edm.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Owin.Security.WsFederation.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.Spatial.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Newtonsoft.Json.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Concurrent.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Nito.AsyncEx.Enlightenment.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\StackExchange.Redis.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\StackExchange.Redis.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\StackExchange.Redis.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Collections.Immutable.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Net.Http.Formatting.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Helpers.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Http.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Http.WebHost.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Mvc.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.OData.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Optimization.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Razor.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.WebPages.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Deployment.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.WebPages.Razor.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\EPPlus.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\RestSharp.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\System.Web.Http.Owin.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\af\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ar\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\bg\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\bn-BD\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\cs\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\da\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\de\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\el\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\es\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\fa\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\fi-FI\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\fr\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\fr-BE\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\he\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\hr\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\hu\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\id\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\it\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ja\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\nb\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\nb-NO\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\nl\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\pl\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\pt\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ro\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ru\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\sk\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\sl\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\sr\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\sr-Latn\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\sv\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\tr\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\uk\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\uz-Latn-UZ\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\vi\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-CN\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hans\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hant\Humanizer.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\de\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\es\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\fr\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\it\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ja\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ko\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ru\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hans\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hant\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\de\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\es\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\fr\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\it\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ja\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ko\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ru\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hans\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hant\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\de\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\es\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\fr\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\it\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ja\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ko\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\ru\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hans\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\bin\zh-Hant\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.csprojResolveAssemblyReference.cache
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.Web\obj\Debug\DinePlan.DineConnect.Web.pdb

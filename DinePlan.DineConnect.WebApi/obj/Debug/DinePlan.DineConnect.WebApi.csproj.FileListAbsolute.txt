@@ -1,0 +1,238 @@
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.WebApi.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.WebApi.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.WebApi.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.AutoMapper.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.OData.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Common.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\AutoMapper.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Facilities.Logging.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Windsor.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Edm.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Spatial.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Newtonsoft.Json.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Concurrent.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Swashbuckle.Core.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Collections.Immutable.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Net.Http.Formatting.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.Owin.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.WebHost.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.OData.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\EPPlus.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.Ldap.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Linq.Dynamic.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\EntityFramework.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Application.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Application.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Core.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Core.dll.config
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.AutoMapper.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.AutoMapper.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.OData.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.OData.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Common.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Common.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\AutoMapper.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Facilities.Logging.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Windsor.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Core.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Edm.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Spatial.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Newtonsoft.Json.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Concurrent.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Collections.Immutable.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Net.Http.Formatting.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.Owin.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.WebHost.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.OData.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\EPPlus.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.Ldap.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.Ldap.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\EntityFramework.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\de\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\es\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\fr\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\it\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ja\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ko\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ru\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hans\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hant\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\de\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\es\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\fr\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\it\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ja\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ko\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ru\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hans\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hant\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\de\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\es\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\fr\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\it\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ja\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ko\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\ru\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hans\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hant\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\obj\Debug\DinePlan.DineConnect.WebApi.csprojResolveAssemblyReference.cache
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\obj\Debug\DinePlan.DineConnect.WebApi.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\obj\Debug\DinePlan.DineConnect.WebApi.pdb
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\RestSharp.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\RestSharp.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\VinhTran\DineConnect\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.WebApi.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.WebApi.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.WebApi.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.AutoMapper.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.OData.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Common.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\AutoMapper.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Facilities.Logging.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Windsor.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Application.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Edm.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Spatial.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Newtonsoft.Json.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Concurrent.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\RestSharp.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Swashbuckle.Core.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Collections.Immutable.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Net.Http.Formatting.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.Owin.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.WebHost.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.OData.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\EPPlus.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.Ldap.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Linq.Dynamic.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\EntityFramework.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Application.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Application.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Core.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\DinePlan.DineConnect.Core.dll.config
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.AutoMapper.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.AutoMapper.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.OData.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Api.OData.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Common.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Web.Common.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\AutoMapper.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Facilities.Logging.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Castle.Windsor.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Core.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.OData.Edm.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Microsoft.Spatial.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Newtonsoft.Json.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Concurrent.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\RestSharp.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Collections.Immutable.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Net.Http.Formatting.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.Owin.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.Http.WebHost.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\System.Web.OData.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\EPPlus.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.Ldap.pdb
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\Abp.Zero.Ldap.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\EntityFramework.xml
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\de\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\es\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\fr\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\it\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ja\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ko\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ru\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hans\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hant\Microsoft.OData.Core.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\de\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\es\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\fr\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\it\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ja\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ko\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ru\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hans\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hant\Microsoft.OData.Edm.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\de\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\es\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\fr\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\it\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ja\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ko\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\ru\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hans\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\bin\Debug\zh-Hant\Microsoft.Spatial.resources.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\obj\Debug\DinePlan.DineConnect.WebApi.csprojResolveAssemblyReference.cache
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\obj\Debug\DinePlan.DineConnect.WebApi.dll
+D:\VinhTran\DineConnect - BK\DinePlan.DineConnect.WebApi\obj\Debug\DinePlan.DineConnect.WebApi.pdb

@@ -1,0 +1,185 @@
+﻿@*<script src="~/libs/ownScript/UserOwnModule.js"></script>
+<link href="~/libs/ownScript/UserOwnStyleSheet.css" rel="stylesheet" />*@
+
+<script>
+    $('input').each(function (i, e) {
+        var label;
+        switch ($(e).attr('id')) {
+            case 'address1':
+                label = 'Address 1 is mandatory';
+                break;
+            case 'phonenumber':
+                label = 'Phone Number is mandatory';
+                break;
+            case 'website':
+                label = 'Please prefix with http:// with supplier website';
+                break;
+            case 'email':
+                label = 'The Email id should have @@ Symbol between letters';
+                break;
+            case 'defaultcreditdays':
+                label = 'Credit days Accepted for payment from Invoice Date';
+                break;
+
+        }
+        $(e).tooltip({ 'trigger': 'focus hover',  'title': label, 'placement': 'bottom', 'delay': '{ show: 1000, hide: 100 }' });
+    });
+</script>
+
+<div class="modal-dialog">
+    <form name="supplierCreateOrEditForm" role="form" novalidate class="form-validation">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                <span ng-if="vm.supplier.id">@L("EditSupplier"): {{vm.supplier.supplierName | uppercase}}</span>
+                <span ng-if="!vm.supplier.id">@L("CreateSupplier")</span>
+            </h4>
+        </div>
+        <div class="modal-body modal-lg">
+            <uib-tabset class="tab-container tabbable-line">
+                <uib-tab heading="@L("Information")">
+
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input class="form-control ucase" autofocus type="text" name="suppliername" ng-class="{'edited':vm.supplier.supplierName}" ng-model="vm.supplier.supplierName" required maxlength="60">
+                                <label>@L("Name")</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input class="form-control ucase" autofocus type="text" name="suppliername" ng-class="{'edited':vm.supplier.taxRegistrationNumber}" ng-model="vm.supplier.taxRegistrationNumber" >
+                                <label>@L("TaxRegistrationNumber")</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input uib-tooltip="Credit days Accepted for payment from Invoice Date" tooltip-placement="bottom" onkeypress="return NumberOnly(event, 'cancel')" class="form-control" type="number" id="defaultcreditdays" name="defaultcreditdays" ng-class="{'edited':vm.supplier.defaultCreditDays}" maxlength="3" ng-model="vm.supplier.defaultCreditDays" >
+                                <label>@L("DefaultCreditDays")</label>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label">@L("OrderThrough")</label>
+                                <select id="orderThrough" class="form-control selectpicker" data_live_search="true" ng-model="vm.supplier.orderPlacedThrough" >
+                                    <option>Phone</option>
+                                    <option>Mail</option>
+                                    <option>Fax</option>
+                                    <option>In Person</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input onkeypress="return NumberOnly(event, 'cancel')" class="form-control " type="text" id="phonenumber" name="phonenumber" ng-class="{'edited':vm.supplier.phoneNumber1}" ng-model="vm.supplier.phoneNumber1" maxlength="20" >
+                                <label>@L("PhoneNumber")</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input onkeypress="return NumberOnly(event, 'cancel')" class="form-control" type="text" name="faxnumber" ng-class="{'edited':vm.supplier.faxNumber}" ng-model="vm.supplier.faxNumber" maxlength="20">
+                                <label>@L("FaxNumber")</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input uib-tooltip="The Email id should have Symbol between letters" tooltip-placement="bottom" class="form-control" type="email" id="email" name="email" ng-class="{'edited':vm.supplier.email}" ng-model="vm.supplier.email">
+                                <label>@L("Email")</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input uib-tooltip=@L("WebTT") tooltip-placement="bottom" class="form-control" type="url" id="website" name="website" ng-class="{'edited':vm.supplier.website}" ng-model="vm.supplier.website">
+                                <label>@L("Website")</label>
+                            </div>
+                        </div>
+                    </div>
+                </uib-tab>
+                <uib-tab heading="@L("Address")">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input uib-tooltip="Address Is Mandatory" tooltip-placement="bottom"class="form-control" type="text" id="address1" name="address1" ng-class="{'edited':vm.supplier.address1}" ng-model="vm.supplier.address1" >
+                                <label>@L("Address1")</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input class="form-control" type="text" name="address2" ng-class="{'edited':vm.supplier.address1}" ng-model="vm.supplier.address2">
+                                <label>@L("Address2")</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input class="form-control" type="text" name="address3" ng-class="{'edited':vm.supplier.address3}" ng-model="vm.supplier.address3">
+                                <label>@L("Address3")</label>
+                            </div>
+                        </div>
+                     </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                    <input class="form-control" type="text" id="city" name="city" ng-class="{'edited':vm.supplier.city}" ng-model="vm.supplier.city" >
+                                    <label>@L("City")</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                    <input class="form-control" type="text" name="state" ng-class="{'edited':vm.supplier.state}" ng-model="vm.supplier.state" >
+                                    <label>@L("State")</label>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                    <input class="form-control" type="text" name="country" ng-class="{'edited':vm.supplier.country}" ng-model="vm.supplier.country" >
+                                    <label>@L("Country")</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                    <input onkeypress="return NumberOnly(event, 'cancel')" class="form-control" type="text" name="zipcode" ng-class="{'edited':vm.supplier.zipCode}" ng-model="vm.supplier.zipCode" >
+                                    <label>@L("ZipCode")</label>
+                                </div>
+                            </div>
+                       </div>
+                </uib-tab>
+                <uib-tab heading="@L("Tally")" @*ng-if="vm.tallyIntegrationFlag"*@ ng-if="false">
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                                <input class="form-control ucase" onblur="changetoupper(this)" type="text" name="tallycompanyname" ng-class="{'edited':vm.supplier.tallySupplierName}" ng-model="vm.supplier.tallySupplierName">
+                                <label>@L("TallyCompanyName")</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </uib-tab>
+         
+            </uib-tabset>
+        </div>
+        <div class="modal-footer">
+            <button name="close" ng-disabled="vm.saving" type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Close")</button>
+            <button type="submit" button-busy="vm.saving" busy-text="@L("SavingWithThreeDot")" class="btn btn-primary blue" ng-mousedown="vm.existall()" ng-click="vm.save()" ng-disabled="supplierCreateOrEditForm.$invalid">
+                <i class="fa fa-save"></i> <span>@L("Save")</span>
+            </button>
+        </div>
+    </form>
+</div>
+
